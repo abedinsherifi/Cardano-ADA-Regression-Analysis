@@ -27,7 +27,7 @@ Please **NOTE**: The web interface code is taken from [*Srishilesh*](https://www
 Model code copyrights are to **Abedin Sherifi**. 
 
 ## Jupyter Notebook Data Analysis
-The file called **cardano.ipynb** is a jupyter notebook file that covers several examples of data analysis of the **coin_Cardano.csv**. 
+The file called [*cardano.ipynb*](https://github.com/prespafree1/Cardano-ADA-Regression-Analysis/blob/main/cardano.ipynb) is a jupyter notebook file that covers several examples of data analysis of the **coin_Cardano.csv**. 
 
 Images below will display a snapshot of some of the code in the jupyter notebook file.
 
