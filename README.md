@@ -25,3 +25,6 @@ The picture below depicts the predicted value based on user input values from th
 
 Please **NOTE**: The web interface code is taken from [*Srishilesh*](https://www.section.io/engineering-education/deploying-machine-learning-models-using-flask/).
 Model code copyrights are to **Abedin Sherifi**. 
+
+## Jupyter Notebook Data Analysis
+The file called **cardano.ipynb** is a jupyter notebook file that covers several examples of data analysis of the **coin_Cardano.csv**. 
