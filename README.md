@@ -1,6 +1,6 @@
-# Markdown Templates
+# Cardano ADA Regression Analysis
 ## Introduction
-This repository contains templates for creating scientific, academic, and technical documents that require equations, citations, code blocks, Unicode characters, and embedded vector graphics using *Markdown* and *Pandoc* converter. This software also allows us to write LaTeX documents more easily compared to using pure LaTeX. We discuss the details about these templates and how to write scientific Markdown in general in our article [*Scientific Writing with Markdown*](https://jaantollander.com/post/scientific-writing-with-markdown/). The original inspiration came from the article [*How to make a scientific-looking PDF from Markdown (with bibliography)*](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8).
+This repository contains the code for templates for creating scientific, academic, and technical documents that require equations, citations, code blocks, Unicode characters, and embedded vector graphics using *Markdown* and *Pandoc* converter. This software also allows us to write LaTeX documents more easily compared to using pure LaTeX. We discuss the details about these templates and how to write scientific Markdown in general in our article [*Scientific Writing with Markdown*](https://jaantollander.com/post/scientific-writing-with-markdown/). The original inspiration came from the article [*How to make a scientific-looking PDF from Markdown (with bibliography)*](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8).
 
 ## Requirements
 To use these templates, we require the following software.
