@@ -12,11 +12,11 @@ To use these templates, we require the following software.
 Then, clone the repository and copy the appropriate template.
 
 ## Editors
-![](images/markdown-templates-vscode.png)
+![](images/predicted_value.png)
 
 Above, we see how writing documents looks in *Visual Studio Code*.
 
-![](images/markdown-templates-atom.png)
+![](images/values.png)
 
 Above, we see how writing documents looks in *Atom*.
 
