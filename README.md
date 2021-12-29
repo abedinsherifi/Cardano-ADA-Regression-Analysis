@@ -24,3 +24,4 @@ The picture below depicts the predicted value based on user input values from th
 ![](images/predicted_value.png)
 
 Please **NOTE**: The web interface code is taken from [*Srishilesh*](https://www.section.io/engineering-education/deploying-machine-learning-models-using-flask/).
+Model code copyrights are to **Abedin Sherifi**. 
