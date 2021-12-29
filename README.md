@@ -1,26 +1,26 @@
 # Cardano ADA Regression Analysis
 ## Introduction
-This repository contains the code for deploying ADA Machine Learning (ML) model using Flask. The goal of this project is for the ML model to predict the Close value of Cardano given Date, Open value, High value, Low value, Marketcap value, and Volume value. We will be using the [*cardano*](https://github.com/prespafree1/Cardano-ADA-Regression-Analysis/blob/main/coin_Cardano.csv) dataset from Kaggle. templates for creating scientific, academic, and technical documents that require equations, citations, code blocks, Unicode characters, and embedded vector graphics using *Markdown* and *Pandoc* converter. This software also allows us to write LaTeX documents more easily compared to using pure LaTeX. We discuss the details about these templates and how to write scientific Markdown in general in our article [*Scientific Writing with Markdown*](https://jaantollander.com/post/scientific-writing-with-markdown/). The original inspiration came from the article [*How to make a scientific-looking PDF from Markdown (with bibliography)*](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8).
+This repository contains the code for deploying ADA Machine Learning (ML) model using Flask. The goal of this project is for the ML model to predict the Close value of Cardano given Date, Open value, High value, Low value, Marketcap value, and Volume value. We will be using the [*cardano*](https://github.com/prespafree1/Cardano-ADA-Regression-Analysis/blob/main/coin_Cardano.csv) dataset from Kaggle.
 
-## Requirements
-To use these templates, we require the following software.
+## Regression Model
+The python file cardano_model.py contains the regression model for this project. First step is to import all the necessary libraries. Three functions are used in total. The first function is **to_xy** which converts a pandas dataframe to the x and y inputs that TensorFlow uses. The second function called **encode_numeric_zscore** encodes a numeric column as zscore. More information regarding [*zscore*](https://deepai.org/machine-learning-glossary-and-terms/z-score) can be found in the hyperlink. 
 
-1) [*Pandoc*](https://pandoc.org/) for converting between the Markdown files into other document formats.
-2) [*LaTeX*](https://www.latex-project.org/) for creating PDF documents.
-3) *Make* (software) for using Makefiles.
+The **classify** function takes in 6 input parameters (Date, High, Low, Open, Volume, and Marketcap) and outputs the predicted Close value. The csv file is read first by using pandas in the form of a dataframe. Three of the features of columns are dropped (SNo, Name, and Symbol). The Date feature is formatted differently such that only the first part of the date is used without any time (YYYMMDD).The input parameters from the used are added to a second dataframe called df_2. This new dataframe is appended to the original dataframe called df (this action adds df_2 after last row of df). 
 
-Then, clone the repository and copy the appropriate template.
+If you take a look at the csv file, the Date, Volume, and Marketcap feature values are too large compared to the rest of the features. A very important step in machine learning is data processing and standardization. Zscore is used for the standardization step. You can also try this for yourself. If you let Date, Volume, and Marketcap features the same, your predicted Close value will be some huge value. 
 
-## Editors
-![](images/predicted_value.png)
+The model used consists of 3 layers. The input layer of 100 nodes, the hidden layer of 10 nodes, and the output layer. Each layer is densely interconnected. More information regarding [*Dense*](https://machinelearningknowledge.ai/keras-dense-layer-explained-for-beginners/) layers can he found in the hyperlink.
 
-Above, we see how writing documents looks in *Visual Studio Code*.
+An important step is that we make a prediction and then we wrap the last row of the prediction to the user interface. This prediction is an array so it needs to get converted to a string first before it can be displayed to the user interface. 
 
+## User Interface
+The figure below depicts the overall webpage design. It is run locally on https://127.0.0.1.5000/dino. User needs to run python server.py on command line and then paste your corresponding link to web browser. 
+![](images/home_page.png)
+
+The picture below depicts a screenshot of the webpage when a user inputs specific values for each input paramenter and just before prediction. 
 ![](images/values.png)
 
-Above, we see how writing documents looks in *Atom*.
+The picture below depicts the predicted value based on user input values from the picture above.
+![](images/predicted_value.png)
 
-We also recommend having an editor for writing Markdown. Please read the [Editors](https://jaantollander.com/post/scientific-writing-with-markdown/#editors) section in our article.
-
-## Creating Documents
-The [Creating Documents](https://jaantollander.com/post/scientific-writing-with-markdown/#creating-documents) section in our article explains the template directory structure, build commands and makefiles, and how to set document-specific metadata in the front matter.
+Please **NOTE**: The web interface code is taken from [*Srishilesh*](https://www.section.io/engineering-education/deploying-machine-learning-models-using-flask/).
