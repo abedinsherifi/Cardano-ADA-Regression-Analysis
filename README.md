@@ -28,3 +28,21 @@ Model code copyrights are to **Abedin Sherifi**.
 
 ## Jupyter Notebook Data Analysis
 The file called **cardano.ipynb** is a jupyter notebook file that covers several examples of data analysis of the **coin_Cardano.csv**. 
+
+Images below will display a snapshot of some of the code in the jupyter notebook file.
+
+A heatmap contains values representing various shades of the same color for each value to be plotted. Usually the darker shades of the chart represent higher values than the lighter shade. The varying intensity of color represents the measure of correlation. This is captured in the image below. 
+![](images/heatmap.png)
+
+The image below is a scatter plot of the Close feature vs. the Date feature. 
+![](images/scatter_plot.png)
+
+The image below is a distribution plot of the Close feature. 
+![](images/dist_plot.png)
+
+The image below is a chart regression plot. It plots expected and predicted values and shows the overlap between the two. 
+![](images/chart_regression_plot.png)
+
+The image below is a scatter plot of the predicted values. 
+![](images/scatter_plot_predicted.png)
+
