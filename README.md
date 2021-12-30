@@ -1,7 +1,7 @@
-<p align="center">
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=prespafree1&show_icons=true)
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=prespafree1&theme=blue-green)
 
+<p align="center">
   <a href="https://github.com/prespafree1/Cardano-ADA-Regression-Analysis">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/prespafree1/Cardano-ADA-Regression-Analysis.svg">
   </a>
