@@ -1,6 +1,5 @@
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=prespafree1&show_icons=true)
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=prespafree1&theme=blue-green)
-[![HitCount](http://hits.prespafree1.com/prespafree1/hits.svg)](https://github.com/prespafree1/hits)
 
 <p align="center">
   <a href="https://github.com/prespafree1/Cardano-ADA-Regression-Analysis">
