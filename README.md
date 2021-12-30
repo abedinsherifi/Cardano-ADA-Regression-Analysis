@@ -8,6 +8,8 @@
   <a href="https://github.com/prespafree1/Cardano-ADA-Regression-Analysis">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/prespafree1/Cardano-ADA-Regression-Analysis.svg">
   </a>
+    <a href="https://github.com/prespafree1/Cardano-ADA-Regression-Analysis/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
 </p>
 
 # Cardano ADA Regression Analysis
