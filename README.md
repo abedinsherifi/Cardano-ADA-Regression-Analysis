@@ -1,6 +1,6 @@
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=prespafree1&show_icons=true)
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=prespafree1&theme=blue-green)
-[![GitHub Views](https://komarev.com/ghpvc/?username=prespafree1&color=FAC151)][1]
+![GitHub Views](https://komarev.com/ghpvc/?username=prespafree1)
 
 <p align="center">
   <a href="https://github.com/prespafree1/Cardano-ADA-Regression-Analysis">
