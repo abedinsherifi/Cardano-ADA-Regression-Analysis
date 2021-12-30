@@ -1,6 +1,15 @@
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=prespafree1&show_icons=true)
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=prespafree1&theme=blue-green)
 
+<p align="center">
+  <a href="https://github.com/prespafree1/Cardano-ADA-Regression-Analysis">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/prespafree1/Cardano-ADA-Regression-Analysis.svg">
+  </a>
+  <a href="https://github.com/prespafree1/Cardano-ADA-Regression-Analysis">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/prespafree1/Cardano-ADA-Regression-Analysis.svg">
+  </a>
+</p>
+
 # Cardano ADA Regression Analysis
 ## Introduction
 This repository contains the code for deploying ADA Machine Learning (ML) model using Flask. The goal of this project is for the ML model to predict the Close value of Cardano given Date, Open value, High value, Low value, Marketcap value, and Volume value. We will be using the [*cardano*](https://github.com/prespafree1/Cardano-ADA-Regression-Analysis/blob/main/coin_Cardano.csv) dataset from Kaggle.
