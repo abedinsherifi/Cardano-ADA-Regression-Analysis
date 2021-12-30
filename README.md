@@ -1,3 +1,10 @@
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Tanu-N-Prabhu&show_icons=true)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Tanu-N-Prabhu&theme=blue-green)
+![Your Repository's Stats](https://contrib.rocks/image?repo=Tanu-N-Prabhu/Python)
+![Jokes Card](https://readme-jokes.vercel.app/api)
+![Profile View Counter](https://komarev.com/ghpvc/?username=Tanu-N-Prabhu)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Tanu-N-Prabhu/Python)
+
 # Cardano ADA Regression Analysis
 ## Introduction
 This repository contains the code for deploying ADA Machine Learning (ML) model using Flask. The goal of this project is for the ML model to predict the Close value of Cardano given Date, Open value, High value, Low value, Marketcap value, and Volume value. We will be using the [*cardano*](https://github.com/prespafree1/Cardano-ADA-Regression-Analysis/blob/main/coin_Cardano.csv) dataset from Kaggle.
