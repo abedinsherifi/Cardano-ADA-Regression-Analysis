@@ -1,9 +1,9 @@
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=prespafree1&show_icons=true)
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=prespafree1&theme=blue-green)
 ![Your Repository's Stats](https://contrib.rocks/image?repo=prespafree1/Cardano-ADA-Regression-Analysis)
-![Jokes Card](https://readme-jokes.vercel.app/api)
-![Profile View Counter](https://komarev.com/ghpvc/?username=prespafree1)
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/prespafree1/Cardano-ADA-Regression-Analysis)
+[HITS](https://hits.seeyoufarm.com)
+[HITS](https://hits.seeyoufarm.com)
+[HITS](https://hits.seeyoufarm.com)
 
 # Cardano ADA Regression Analysis
 ## Introduction
