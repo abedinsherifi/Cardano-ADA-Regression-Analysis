@@ -62,4 +62,4 @@ The image below is a scatter plot of the predicted values. <br>
 ![](images/scatter_plot_predicted.png)
 <br>
 
-https://prespafree1.github.io/Cardano-ADA-Regression-Analysis/
+https://abedinsherifi.github.io/Cardano-ADA-Regression-Analysis/
